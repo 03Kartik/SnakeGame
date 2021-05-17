@@ -70,7 +70,7 @@ def gameLoop():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 gameExit = True
-            if event.type w== pygame.KEYDOWN:
+            if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_LEFT:
                     lead_x_change = -block_size
                     lead_y_change = 0
@@ -97,7 +97,7 @@ def gameLoop():
         snakeHead = []
         snakeHead.append(lead_x)
         snakeHead.append(lead_y)
-         snakeList.append(snakeHead)
+        snakeList.append(snakeHead)
         snake(block_size, snakeList)
 
         if len(snakeList) > snakeLength:
