@@ -1,7 +1,19 @@
-# SnakeGame
-Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself. It was develop using pygame
-Version 1 is uploaded in which we have a simple interface for game. Without using advance grapics or image. which we will include in the latter update with more functionallity of the game.
-Some Glimpse Of First Version Of Snake Game
+SnakeGame 1.0
+- Made by using pycharm and some module
+-simple moves of snake
+-random generate food 
+-if it collides itself or with boundary game over
+-the more he eats. the more he gets longer
+
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/69783663/118499445-90cdd600-b744-11eb-97f0-8065cc2f9bbf.gif)
+
+SnakeGame 2.0
+-Fixed Some Bugs
+-Created Home Page
+-Render Score
+-Fixed Alingment
+-Better Visualization
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/69783663/118594284-d501ba80-b7c6-11eb-8e38-f17fa9fd4067.gif)
 
